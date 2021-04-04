@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  /* justify-content: center; */
+  /* justify-content: space-between; */
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 80vh;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background: peru;
+  color: white;
+}
