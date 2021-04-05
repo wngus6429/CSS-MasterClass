@@ -4,16 +4,25 @@ CSS-MasterClass-NICO
 
 # Flex-box
 
-[X] flex-direction
-[X] order
-[X] justify-content
-[X] align-items
-[X] align-self
-[X] flex-wrap
-[X] align-content
-[X] flex-grow
-[X] flex-shrink
-[X] flex-basis
+## [X] flex-direction
+
+## [X] order
+
+## [X] justify-content
+
+## [X] align-items
+
+## [X] align-self
+
+## [X] flex-wrap
+
+## [X] align-content
+
+## [X] flex-grow
+
+## [X] flex-shrink
+
+## [X] flex-basis
 
 # Grid
 
