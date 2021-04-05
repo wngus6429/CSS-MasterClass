@@ -1,0 +1,25 @@
+.father {
+    display: flex;
+    /* flex-direction: column-reverse; */
+    /* Main Axis */
+    justify-content: space-around;
+     /* Cross Axis */
+    height: 150vh;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+/* align-content: flex-start; */
+/* 줄 나눔이 사라짐 */
+align-content: space-around; 
+    
+}
+  
+.child {
+    width: 200px;
+    height: 200px;
+    background: peru;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }

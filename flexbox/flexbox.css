@@ -1,14 +1,18 @@
 .wrapper {
   display: flex;
+  flex-direction: column;
+  /* flex-direction: row; 디폴트값 */
   /* justify-content: center; */
   /* justify-content: space-between; */
-  justify-content: space-around;
-  align-items: flex-end;
-  height: 80vh;
+  /* Main Axis */
+  justify-content: center;
+   /* Cross Axis */
+  align-items: stretch;
+  height: 200vh;
 }
 
 .box {
-  width: 200px;
+  /* width: 200px; */
   height: 200px;
   background: peru;
   color: white;
