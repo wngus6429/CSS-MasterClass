@@ -1,0 +1,32 @@
+.grid {
+  display: grid;
+  gap: 5px;
+  height: 50vh;
+  grid-template:
+    [header-start] "header header header header" 1fr [header-end]
+    [content-start] "content content content nav" 2fr [content-end]
+    /* 2fr은 "content content content nav" 1fr 두줄이랑 같다 */
+    [footer-start] "footer footer footer footer" 1fr [footer-end] / 1fr 1fr 1fr 1fr;
+  /* fr로 row의 높이를 정하고 있다. */
+}
+
+.header {
+  background-color: #2ecc71;
+  grid-area: header;
+}
+
+/* column 이라던지 칸 계산은 조그만한 사이칸 기준이다 */
+.content {
+  background-color: #3498db;
+  grid-area: content;
+}
+
+.nav {
+  background-color: #8e44ad;
+  grid-area: nav;
+}
+
+.footer {
+  background-color: #f39c12;
+  grid-area: footer;
+}

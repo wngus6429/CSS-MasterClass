@@ -1,0 +1,44 @@
+/* 이번강좌는 이름넣기 강좌임 */
+
+.grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: [first-line] 100px [second-line] 100px [third-line] 100px [fourth-line] 100px;
+  grid-template-rows: repeat(4, 100px [sexy-line]);
+  /* repeat안에 이름넣기 */
+}
+
+.header {
+  background-color: #2ecc71;
+  grid-column: span 4;
+}
+
+/* column 이라던지 칸 계산은 조그만한 사이칸 기준이다 */
+.content {
+  background-color: #3498db;
+  grid-column: first-line / fourth-line;
+  grid-row: sexy-line 1 / sexy-line 3; /*위치 바꿀수 있음 HTML변경 없이*/
+}
+
+/* .content {
+    background-color: #3498db;
+    grid-column: 1 / -2;
+    grid-row: 2 / span 2; /*위치 바꿀수 있음 HTML변경 없이*/
+/* }  */
+
+.nav {
+  background-color: #8e44ad;
+  grid-row: span 2;
+}
+
+.footer {
+  background-color: #f39c12;
+  grid-column: span 4;
+  /* span은 시작점과 끝점을 적는걸 대신함, cell 4개를 가지고 있다고*/
+}
+
+/*
+  .footer {
+    background-color: #f39c12;
+    grid-column: 1 / -1; /* -1은 마지막 이라는뜻*/
+/* } */

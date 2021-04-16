@@ -1,0 +1,33 @@
+.grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(4, 100px);
+}
+
+.header {
+  background-color: #2ecc71;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+/* column 이라던지 칸 계산은 조그만한 사이칸 기준이다 */
+.content {
+  background-color: #3498db;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2; /*위치 바꿀수 있음 HTML변경 없이*/
+  grid-row-end: 4;
+}
+
+.nav {
+  background-color: #8e44ad;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.footer {
+  background-color: #f39c12;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
