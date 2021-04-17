@@ -26,4 +26,6 @@ CSS-MasterClass-NICO
 
 # Grid
 
+- [x] grid-template
+
 # Clone
