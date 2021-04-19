@@ -27,5 +27,9 @@ CSS-MasterClass-NICO
 # Grid
 
 - [x] grid-template
+- [x] auto-fit
+- [x] auto-fill
+- [x] min-content
+- [x] max-content
 
 # Clone

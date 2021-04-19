@@ -1,0 +1,28 @@
+.grid {
+  background: grey;
+  color: white;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(4, 100px);
+  /* grid-auto-columns: 150px;
+  grid-auto-rows: 150px; */
+  grid-auto-flow: column;
+  grid-auto-columns: 100px;
+}
+
+.item:nth-child(odd) {
+  background-color: #2ecc71;
+}
+
+/* column 이라던지 칸 계산은 조그만한 사이칸 기준이다 */
+.item:nth-child(even) {
+  background-color: #3498db;
+}
+
+/* .header {
+  background-color: #2ecc71;
+  /* align-self: end;
+  justify-self: center; */
+/* place-self: end center;
+} */
