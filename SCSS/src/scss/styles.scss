@@ -1,6 +1,31 @@
-@import "_variables";
+// @import "_button";
 @import "_mixins";
 
 h1 {
-  @include sexyTitle();
+  color: red;
+  @include responsive("iphone") {
+    color: yellow;
+  }
+  @include responsive("iphone-1") {
+    font-size: 60px;
+  }
+  @include responsive("tablet") {
+    color: green;
+  }
 }
+
+// a {
+//   @include responsive {
+//     text-decoration: none;
+//   }
+// }
+
+// a {
+//   @extend %button;
+//   text-decoration: none;
+// }
+
+// button {
+//   @extend %button;
+//   border: none;
+// }
