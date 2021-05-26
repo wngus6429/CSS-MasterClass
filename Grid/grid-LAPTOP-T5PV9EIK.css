@@ -1,0 +1,19 @@
+.father {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.child {
+  flex-basis: 30%; /* Flex Item의 (공간 배분 전) 기본 너비 설정 */
+  background: peru;
+  color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child:nth-child(4) {
+  margin-top: 10px;
+}
